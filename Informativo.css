@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header.principal {
+    background-color: #91ff91;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .principal-imagem {
+    max-width: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #informe {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+  }
+  
+  #informe h1 {
+    font-size: 2.5em;
+  }
+  
+  #informe hr {
+    border: 1px solid white;
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  #categorias {
+    background-color: #e6ffe6;
+    padding: 20px;
+  }
+  
+  #categorias h2 {
+    text-align: center;
+    color: #228b22;
+  }
+  
+  .categoria {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .categoria h3 {
+    color: #228b22;
+    flex-basis: 100%;
+  }
+  
+  .categoria p {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .categoria img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  #sobre, #criadores, #site-info {
+    background-color: #f0f4f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #sobre h2, #criadores h2, #site-info h2 {
+    color: #228b22;
+  }
+  
+  .rodape {
+    background-color: #91ff91;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .rodape-imagem {
+    max-width: 100px;
+    margin: 10px;
+  }
+
+.animate-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+ 
+  .animate-text:hover {
+
+    transform: scale(1.1);
+  }
+  
